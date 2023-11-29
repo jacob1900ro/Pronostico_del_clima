@@ -6,7 +6,7 @@ function showinfo(data) {
         <p>Descripción del Clima: <span id="description">${data.weather_descriptions}</span></p>
         <p>Humedad: <span id="humidity">${data.humidity}</span></p>
         <p>Velocidad del Viento: <span id="windSpeed">${data.wind_speed}</span></p>
-    </div>
+        </div>
     </div>    
     `
 }
